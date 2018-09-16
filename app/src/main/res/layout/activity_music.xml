@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.gmail.sstr224a.transience.MusicActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/black"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Music"
+        app:titleTextColor="@color/white" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="323dp"
+        android:layout_height="449dp"
+        android:layout_marginBottom="91dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="63dp"
+        app:cardBackgroundColor="@color/darker_grey"
+        app:cardElevation="30dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <ImageButton
+            android:id="@+id/water"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="30dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/waves"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="505dp" />
+
+        <ImageButton
+            android:id="@+id/thunder"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="end|left"
+            android:layout_margin="30dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/air"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="338dp" />
+
+        <ImageButton
+            android:id="@+id/bell"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="end|right"
+            android:layout_margin="30dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/bells"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+        <ImageButton
+            android:id="@+id/rain"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center|start"
+            android:layout_margin="30dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/lightning"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="148dp" />
+
+        <ImageButton
+            android:id="@+id/birds"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center|end"
+            android:layout_margin="30dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/bird"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="148dp" />
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

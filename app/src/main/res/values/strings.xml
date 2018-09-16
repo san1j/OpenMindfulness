@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">trend</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi">hi</string>
+    <string name="done">Done!</string>
+    <string name="transience">Transience</string>
+    <string name="recent_stats">Recent Stats</string>
+    <string name="music">Music</string>
+    <string name="Reminder">Add Reminder</string>
+    <string name="Share">Share</string>
+    <string name="Helpful_tips">About</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="channel_name">name</string>
+    <string name="channel_description">channel</string>
+    <string name="link_happiest">http://www.businessinsider.com/how-to-be-happier-according-to-matthieu-ricard-the-worlds-happiest-man-2016-1</string>
+    <string name="block1">
+        This app was inspired by an article on the happiest man in the world.
+        The takeaway from the article is that spending just several minutes a day thinking happy thoughts can have a huge impact on how we think over time.
+        Observing how our brain switches from emotion to emotion is crucial to train our brain to think more positively.
+        This app aims to keep the brain engaged with the app continuously for the selected duration through visualization and interaction.
+        With enough practice thinking happy thoughts for a certain period daily, the mind can learn to let negative thoughts simply pass by instead of clinging to them. </string>
+     <string name="icons">Icons from the app are from:</string>
+    <string name="link_icons">https://icons8.com</string>
+    <string name="remind_me">Remind me everyday at</string>
+    <string name="total_thoughts">Total Thoughts observed</string>
+</resources>

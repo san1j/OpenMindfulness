@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.gmail.sstr224a.transience.MusicActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/black"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Music"
+        app:titleTextColor="@color/white" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="831dp"
+        android:layout_height="511dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/darker_grey"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.38">
+
+        <ImageButton
+            android:id="@+id/water"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="top|center"
+            android:layout_margin="80dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/waves"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="505dp" />
+
+        <ImageButton
+            android:id="@+id/thunder"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="top|start"
+            android:layout_margin="80dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/air"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="338dp" />
+
+        <ImageButton
+            android:id="@+id/bell"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="top|end"
+            android:layout_margin="80dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/bells"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+        <ImageButton
+            android:id="@+id/rain"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="80dp"
+            android:layout_marginRight="120dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/lightning"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="148dp" />
+
+        <ImageButton
+            android:id="@+id/birds"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/roundedbutton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="startMusic"
+            android:src="@drawable/bird"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="148dp" />
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <mobi.upod.timedurationpicker.TimeDurationPicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:textAppearanceDisplay="@style/TextAppearance.TimeDurationPicker.Display.Large"
+        app:textAppearanceUnit="@style/TextAppearance.TimeDurationPicker.Unit.Large"
+        app:textAppearanceButton="@style/TextAppearance.TimeDurationPicker.Button.Large"
+        app:backspaceIcon="@drawable/ic_backspace_light"
+        app:clearIcon="@drawable/ic_clear_light"
+        app:separatorColor="?colorControlActivated"
+        app:durationDisplayBackground="@android:color/holo_blue_dark"
+        app:numPadButtonPadding="0dp"
+        app:timeUnits="mmss"/>
+
+</FrameLayout>
+

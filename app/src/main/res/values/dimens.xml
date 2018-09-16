@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name = "circleView_marginTop">7dp</dimen>
+    <dimen name="circleView_innerPadding">8dp</dimen>
+    <dimen name="circleView_outerSize">11dp</dimen>
+    <dimen name="circleView_progressNormalSize">9dp</dimen>
+    <dimen name="circleView_progressReachSize">4dp</dimen>
+    <dimen name="circleView_radius">57dp</dimen>
+    <dimen name="frameMargin">8dp</dimen>
+    <dimen name="circleView_textview_margin_bottom">5dp</dimen>
+
+    <dimen name="pausePlay_dimens">36dp</dimen>
+    <dimen name="pausePlay_marginBottom">11dp</dimen>
+    <dimen name="constraint_margins">16dp</dimen>
+
+
+    <dimen name="textView_textSize">23sp</dimen>
+    <dimen name="negPos_txtView_padding">3dp</dimen>
+    <dimen name="pos_margin_top">18dp</dimen>
+    <dimen name="pos_margin_end">32dp</dimen>
+
+
+    <dimen name="linearLayout_height">125dp</dimen>
+    <dimen name="linearLayout_marginBottom">88dp</dimen>
+    <dimen name="linearLayout3_marginTop">20dp</dimen>
+    <dimen name="marginSides">20dp</dimen>
+
+    <dimen name="transience_txt_width">129dp</dimen>
+    <dimen name="transience_txt_height">33dp</dimen>
+    <dimen name="transience_txtDisplay_width">134dp</dimen>
+    <dimen name="transience_txtDisplay_height">109dp</dimen>
+    <dimen name="transience_margin_top">24dp</dimen>
+    <dimen name="transience_margin_end">44dp</dimen>
+
+
+
+
+
+
+    <dimen name="progressBar1_width">300dp</dimen>
+    <dimen name="progressBar1_height">10dp</dimen>
+    <dimen name="progressBar1_marginBottom">95dp</dimen>
+    <dimen name="progressBar2_marginBottom">75dp</dimen>
+    <dimen name="large_circleView_outerSize">15dp</dimen>
+    <dimen name="GraphView_height">300dp</dimen>
+
+    <dimen name="large_circleView_radius">85dp</dimen>
+    <dimen name="_large_progress_width">500dp</dimen>
+    <dimen name="large_textSize">32sp</dimen>
+    <dimen name="large_progressBar1_height">15dp</dimen>
+
+
+    <dimen name="large_land_circleView_radius">105dp</dimen>
+    <dimen name="large_progressbar_height">30dp</dimen>
+
+    <dimen name="about_txtSize">17sp</dimen>
+
+
+
+
+
+
+
+    </resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.gmail.sstr224a.transience.ResultsActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="2dp"
+            app:title="Recent Stats"
+            android:background="?attr/colorPrimary"
+            app:layout_constraintBottom_toTopOf="@+id/cardView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:titleTextColor="@color/white" />
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="0dp"
+            android:layout_height="261dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            app:cardBackgroundColor="@color/darker_grey"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="top|end"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toEndOf="@+id/piechart"
+                    android:gravity="center_horizontal"
+                    android:text="@string/total_thoughts"
+                    android:textColor="@color/white"
+                    android:textSize="28sp" />
+
+
+                <TextView
+                    android:id="@+id/thoughts"
+                    android:layout_width="164dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView4"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="110dp"
+                    android:layout_marginTop="158dp"
+                    android:layout_toEndOf="@+id/piechart"
+                    android:gravity="center"
+                    android:textColor="#B3FFFFFF"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/avgTransience"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textView4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginTop="45dp"
+                    android:gravity="center"
+                    android:textColor="#B3FFFFFF"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Today"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.08"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/avgTransience"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_toEndOf="@+id/piechart"
+                    android:gravity="center_horizontal"
+                    android:text="Avg Transience "
+                    android:textColor="@color/white"
+                    android:textSize="28sp" />
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:layout_marginTop="10dp"
+                    android:layout_toStartOf="@+id/avgTransience" />
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/thisWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="1dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:text="This Week:"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toTopOf="@+id/barGraph"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3"
+            app:layout_constraintVertical_bias="0.93" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barGraph"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="64dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+   <item
+       android:id="@+id/recent_stats"
+       android:title="@string/recent_stats"
+       app:showAsAction="never"
+       android:icon="@drawable/ic_assessment_black_24dp"
+       app:itemIconTint="@color/white"
+       android:checked="true"
+       />
+    <item
+        android:id="@+id/music"
+        android:title="@string/music"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_music_note_black_24dp"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/reminder"
+        android:title="@string/Reminder"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_add_alert_black_24dp"
+        android:checked="true"
+        />
+
+
+
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/Share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="never"
+        android:checked="true"
+
+        />
+    <item
+        android:id="@+id/About"
+        android:title="@string/Helpful_tips"
+        android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+        app:showAsAction="never"
+        android:checked="true"
+        />
+    </group>
+</menu>
