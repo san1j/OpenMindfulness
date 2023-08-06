@@ -1,5 +1,5 @@
 # Open Mindfulness
-An app to train the brain to become more mindful and positive
+POC Android Development App
 
 Features:</br>
 * Listen to calming sounds while you practice
@@ -15,4 +15,4 @@ Features:</br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/36819928/45591859-f2eb3300-b92c-11e8-951f-fb38e658f078.png" width = "500">
 
-<a href='https://play.google.com/store/apps/details?id=com.gmail.sstr224a.transience&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="200"/></a>
+ 
